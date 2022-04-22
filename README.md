@@ -1,6 +1,13 @@
 ## HEROKU
 https://shrouded-shelf-19749.herokuapp.com/ | https://git.heroku.com/shrouded-shelf-19749.git
 
+db name = bookDb
+user = book
+password = book
+
+mongodb+srv://book:book@cluster0.o50ch.mongodb.net/bookDb?retryWrites=true&w=majority
+
+
 # User Story
 AS AN avid reader<br>
 I WANT to search for new books to read<br>
