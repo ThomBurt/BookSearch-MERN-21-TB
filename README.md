@@ -5,9 +5,17 @@ db name = bookDb
 user = book
 password = book
 
-mongodb+srv://book:book@cluster0.o50ch.mongodb.net/bookDb?retryWrites=true&w=majority
+mongodb+srv://book:book@bookdb.nartt.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
 
+# Description
+Refactor a fully functioning Google Books API search engine built with a RESTful API as a GraphQL API built with Apollo Server. The original app was built using the MERN stack with a React front end, MongoDB database, and Node.js/Express.js server and API. It was already set up to allow users to save book searches to the back end.
 
+This assignment includes:
+
+Setting up an Apollo Server to use GraphQL queries and mutations to fetch and modify data, replacing the existing RESTful API,
+Modify the existing authentication middleware so that it works in the context of a GraphQL API,
+Creating an Apollo Provider so that requests can communicate with an Apollo Server, and
+Deploying the application to Heroku with a MongoDB database using MongoDB Atlas.
 # User Story
 AS AN avid reader<br>
 I WANT to search for new books to read<br>
